@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageToUpload"
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="takePicture"
+                android:layout_margin="5dp"
+                android:src="@drawable/check4"/>
+
+            <TextView
+                android:id="@+id/myImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageToUpload"
+                android:layout_alignTop="@+id/imageToUpload"
+                android:layout_alignRight="@+id/imageToUpload"
+                android:layout_alignBottom="@+id/imageToUpload"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/recognizeBtn"
+        android:layout_width="match_parent"
+        android:layout_height = "60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:onClick="recognizeBtnClick"
+        android:text="Split"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
+
