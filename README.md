@@ -13,4 +13,4 @@ This application is implemented using OpenCV, Tesseract, and Android.
 Team members:
 Bassant Abdelgawad Ibrahim/
 Khadiga Mesbah Mohammad/
-Dahlia Samy Ahmed
+Dahlia Samy Ahmed Refaei
