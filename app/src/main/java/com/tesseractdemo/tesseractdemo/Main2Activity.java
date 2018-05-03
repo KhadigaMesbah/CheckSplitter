@@ -66,6 +66,7 @@ public class Main2Activity extends AppCompatActivity {
 //            else if(m == orderList.size()-1){
 //                VAT = orderList.get(m).getPrice();
 //                orderList.remove(m);
+        // VAT= Orderlist.get(orderList.size() - 1).getPrice();
 //            }
 //        }
 
