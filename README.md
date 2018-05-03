@@ -9,3 +9,8 @@ another person. Almost all the time.
 The goal of this application is to resolve this issue, making check splitting a simple task for everyone.
 
 This application is implemented using OpenCV, Tesseract, and Android.
+
+Team members:
+Bassant Abdelgawad Ibrahim/
+Khadiga Mesbah Mohammad/
+Dahlia Samy Ahmed
