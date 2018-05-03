@@ -18,7 +18,7 @@ public class FoodOrder implements Parcelable {
         price = fprice;
     }
 
-    //methods
+    //Functions
     public void setName(String newName){
         this.name = newName;
     }
